@@ -1,0 +1,17 @@
+[meta]
+  title = "Deepgram live audio transcription"
+  description = "Deepgram live audio transcription using next js react and tailwind css"
+  author = "Deepgram DX Team <devrel@deepgram.com> (https://developers.deepgram.com)"
+  useCase = "Live"
+  language = "JavaScript"
+  framework = "Next"
+
+[build]
+  command = "npm install"
+
+[config]
+  sample = "sample.env.local"
+  output = ".env.local"
+
+[post-build]
+  message = "Run `npm run dev` to get up and running locally."
